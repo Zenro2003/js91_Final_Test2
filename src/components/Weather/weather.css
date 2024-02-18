@@ -1,0 +1,13 @@
+.weather-icon {
+  width: 100px; 
+  height: auto; 
+}
+
+
+.weather-board{
+  font-weight: bold;
+  font-size: 20px;
+}
+.weather-board p:nth-child(4) {
+  font-size: 30px; 
+}

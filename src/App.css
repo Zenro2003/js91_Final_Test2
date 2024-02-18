@@ -1,7 +1,10 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height:  100vh;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +38,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+.App-content {
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 20px;
+  color: black;
+  font-size: 15px;
+  border-radius: 8px; 
+}
+
+.weather-container {
+  margin-top: 20px;
+}
+.loading-spinner {
+  font-size: 250px;
+  color: #74C0FC;
+  animation: spin 3s linear infinite; 
+  border-radius: 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }

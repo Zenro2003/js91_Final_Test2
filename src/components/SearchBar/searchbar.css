@@ -1,0 +1,25 @@
+.search-box {
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 20px;
+  color: black;
+  font-size: 20px;
+}
+
+.search-box input[type="text"],
+.search-box button {
+  border: none; 
+  outline: none; 
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.search-box input[type="text"]:hover {
+  border-bottom: 1px solid black; 
+}
+.search-box button {
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: white;
+  cursor: pointer;
+}
